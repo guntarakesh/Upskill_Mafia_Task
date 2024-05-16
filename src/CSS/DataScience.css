@@ -1,0 +1,87 @@
+.datascience {
+    background: var(--Eminence-50, #FCF5FE);
+    margin: 5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.sub-heading {
+    color: #B73BBE;
+    background-color: var(--Eminence-100, #F9EBFC);
+    border-radius: 20px;
+    font-size: small;
+    padding: 10px;
+}
+
+.main-heading {
+    font-size: xx-large;
+    margin: 1rem 0rem;
+    font-weight: bold;
+}
+
+.main-heading>span {
+    color: transparent;
+    background: linear-gradient(91.98deg, #B73BBE 1.46%, #EBCB2E 57.17%);
+    -webkit-background-clip: text;
+}
+
+.ds-all-cirriculum {
+    background-color: white;
+    width: 800px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ds-cirriculum {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+}
+
+.ds-cirriculum button {
+    color: #B73BBE;
+    background-color: var(--Eminence-100, #F9EBFC);
+    border-radius: 20px;
+    font-size: small;
+    padding: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.ds-languages>p {
+    color: grey;
+}
+
+@media screen and (max-width:401px) {
+    .main-heading {
+        font-size: large;
+        margin: 1rem 0rem;
+        font-weight:bold;
+    }
+    .ds-cirriculum {
+        display: flex;
+        flex-direction:column;
+        margin:1rem 0rem;
+    }
+    .ds-all-cirriculum {
+        background-color:white;
+        width:300px;
+        border-radius:10px;
+        padding:10px;   
+    }
+    .ds-cirriculum button {
+        color: #B73BBE;
+        background-color: rgb(232, 191, 198);
+        border-radius:5px;
+        font-size: small;
+        padding:5px;
+        border: none;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+    }
+}

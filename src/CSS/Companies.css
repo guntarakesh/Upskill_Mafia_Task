@@ -1,0 +1,57 @@
+.companies span {
+    color: transparent;
+    background: linear-gradient(92.04deg, #B73BBE 49.96%, #EBCB2E 99.23%);
+    -webkit-background-clip: text;
+}
+
+.companies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#FFFCEA;
+    padding: 25px;
+}
+
+.companies h1 {
+    margin: 1rem 0rem;
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.logos {
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width:401px) {
+    .card{
+        background-color: white;
+        height:75px;
+        width:150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        margin: 1rem;
+    }
+    .logos .card{
+        display: none;
+    }
+    .logos .card:first-child{
+        display:flex;
+    }
+    .logos .card:last-child{
+        display:flex;
+    }
+}
